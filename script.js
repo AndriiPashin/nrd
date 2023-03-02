@@ -1,4 +1,4 @@
-
-function acount() {
-    document.getElementsByClass("dropdown-content")[0].style.display = "block";
+function show() {
+    let elem = document.getElementsByClassName("drop_content")[0];
+    elem.style.display = elem.style.display === 'block' ? 'none' : 'block';
 }
